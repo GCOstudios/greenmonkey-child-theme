@@ -1,17 +1,16 @@
 /*
-Theme Name: VIP Restaurant Child
-Author: VamTam
-Author URI: https://vamtam.com
+Theme Name: Greenmonkey Child Theme
+Author: Jose Guerra
+Author URI: https://jguerra.dev
 Template: vip-restaurant
+Version: 1.0
 */
 
 
 
 /*
-
-put your child theme styles here
-
-
-you don't need any @import rules
-
+Begin main content
 */
+body.sticky-header-type-over.sticky-header .sticky-header-state-reset .header-content-wrapper {
+  background-color: rgba(0,0,0,0.7);
+}
