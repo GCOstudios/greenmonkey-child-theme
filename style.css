@@ -14,3 +14,30 @@ Begin main content
 body.sticky-header-type-over.sticky-header .sticky-header-state-reset .header-content-wrapper {
   background-color: rgba(0,0,0,0.7);
 }
+
+body.sticky-header .fixed-header-box .logo-wrapper .logo img {
+  max-height: 50px!important;
+}
+
+body.sticky-header .fixed-header-box .logo-wrapper .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font: normal 20px/24px Libre Baskerville;
+  line-height: 20px;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+.meta-header {
+  background-position: center center;
+}
